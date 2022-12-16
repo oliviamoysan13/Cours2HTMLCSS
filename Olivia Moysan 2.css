@@ -1,0 +1,28 @@
+div {
+border: solid ;
+}
+.parent {
+    display: grid ;
+    grid-template-areas :
+    "header header header header"
+    "nav containt containt containt"
+    "nav containt containt containt"
+    "nav containt containt containt"
+    "nav footer footer footer";
+grid-template-rows: 100px 465px 100px 100px;
+grid-template-columns: 820px 600px 250px ;
+}
+.header {
+    grid-area: header;
+}
+.footer
+{
+grid-area: nav;
+}
+.containt {
+    grid-area: ;
+}
+ .nav {
+ grid-area: ;
+    }
+</div>
